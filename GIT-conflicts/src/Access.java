@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
-public class Access implements  Sort{
+public class Access implements Sort {
 
     public List<User> git_users;
 
@@ -13,7 +11,12 @@ public class Access implements  Sort{
 
     @Override
     public void preferanceSort() {
-
+        Collections.sort(git_users, new Comparator<User>() {
+            @Override
+            public int compare(User o1, User o2) {
+                return ((User)o2).name.compareTo(((User)o1).name);
+            }
+        });
     }
 
     @Override
