@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(access);
 
-        access.preferanceSortByChirac();
+        access.preferanceSortByStefi();
 
         System.out.println(access);
 
