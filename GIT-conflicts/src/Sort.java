@@ -1,5 +1,5 @@
 public interface Sort {
 
-    public void preferanceSort();
-
+    public void preferanceSortByStefi();
+    public void preferanceSortByChirac();
 }
