@@ -1,4 +1,9 @@
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
+
 
 public class Access implements Sort {
 
@@ -11,6 +16,9 @@ public class Access implements Sort {
 
     @Override
     public void preferanceSort() {
+
+        git_users.sort(Comparator.comparing(User::getSex));
+
         Collections.sort(git_users, new Comparator<User>() {
             @Override
             public int compare(User o1, User o2) {

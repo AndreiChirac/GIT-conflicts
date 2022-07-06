@@ -18,4 +18,9 @@ public class User {
                 ", sex=" + sex +
                 '}';
     }
+
+    public char getSex() {
+        return this.sex;
+    }
+
 }
