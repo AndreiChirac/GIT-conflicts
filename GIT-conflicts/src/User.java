@@ -26,4 +26,8 @@ public class User {
         return this.sex;
     }
 
+    public String getBirthPlace() {
+        return this.birthPlace;
+    }
+
 }
