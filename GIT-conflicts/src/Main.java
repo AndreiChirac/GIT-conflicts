@@ -21,6 +21,8 @@ public class Main {
         access.preferanceSortByStefi();
 
         System.out.println("Oare am inteles?");
+        System.out.println("Am inteles!");
+
     }
 
 }
