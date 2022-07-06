@@ -19,4 +19,8 @@ public class User {
                 '}';
     }
 
+    public char getGenre() {
+        return this.sex;
+    }
+
 }

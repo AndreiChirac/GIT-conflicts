@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -12,7 +13,7 @@ public class Access implements Sort {
 
     @Override
     public void preferanceSort() {
-
+        git_users.sort(Comparator.comparing(User::getGenre));
     }
 
     @Override
