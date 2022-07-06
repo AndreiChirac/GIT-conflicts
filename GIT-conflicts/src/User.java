@@ -30,4 +30,8 @@ public class User {
     public void birthPlaceSet() {
         this.birthPlace = "None";
     }
+
+    public String getBirthPlace() {
+        return this.birthPlace;
+    }
 }
