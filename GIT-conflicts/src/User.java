@@ -3,11 +3,14 @@ public class User {
     public String name;
     public Integer age;
     public char sex;
+    public String birthPlace;
+    public Integer countryID;
 
-    public User(String name, Integer age, char sex) {
+    public User(String name, Integer age, char sex, Integer countryID) {
         this.name = name;
         this.age = age;
         this.sex = sex;
+        this.countryID = countryID;
     }
 
     @Override
