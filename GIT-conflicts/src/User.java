@@ -19,8 +19,4 @@ public class User {
                 '}';
     }
 
-    public char getSex() {
-        return this.sex;
-    }
-
 }
