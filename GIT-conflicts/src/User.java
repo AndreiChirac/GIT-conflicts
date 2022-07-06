@@ -11,6 +11,7 @@ public class User {
         this.age = age;
         this.sex = sex;
         this.countryID = countryID;
+        birthPlaceSet();
     }
 
     @Override
@@ -26,4 +27,7 @@ public class User {
         return this.sex;
     }
 
+    public void birthPlaceSet() {
+        this.birthPlace = "None";
+    }
 }
