@@ -8,6 +8,7 @@ public class Main {
         List<User> users = new ArrayList<>();
         users.add(new User("Andrei", 21, 'M'));
         users.add(new User("Stefania", 21, 'F'));
+        users.add(new User("Irina", 22, 'F'));
 
         Access access = new Access(users);
 
