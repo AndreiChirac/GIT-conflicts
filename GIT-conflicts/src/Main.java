@@ -13,11 +13,13 @@ public class Main {
 
         System.out.println(access);
 
-        access.preferanceSortByStefi();
+        access.preferanceSortByChirac();
 
         System.out.println(access);
 
+        access.preferanceSortByStefi();
 
+        System.out.println(access);
     }
 
 }
