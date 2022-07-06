@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 
 public class Access implements Sort {
 
@@ -9,8 +12,11 @@ public class Access implements Sort {
         this.git_users = git_users;
     }
 
-    @Override
-    public void preferanceSort() {
+    public void preferanceSortByStefi() {
+        git_users.sort(Comparator.comparing(User::getGenre));
+    }
+
+    public void preferanceSortByChirac() {
         Collections.sort(git_users, new Comparator<User>() {
             @Override
             public int compare(User o1, User o2) {
@@ -18,6 +24,7 @@ public class Access implements Sort {
             }
         });
     }
+
 
     @Override
     public String toString() {

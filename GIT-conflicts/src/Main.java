@@ -13,9 +13,11 @@ public class Main {
 
         System.out.println(access);
 
-        access.preferanceSort();
+        access.preferanceSortByStefi();
 
         System.out.println(access);
+
+
     }
 
 }
